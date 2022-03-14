@@ -1,0 +1,8 @@
+.dashbord_line{margin-top:44px;display:flex;justify-content: flex-start;align-items: center;gap:30px}
+.dashbord_line:first-child{margin-top:0;}
+.dashbord_line .items{min-height:190px;background: #FFFFFF;box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.14);border-radius: 8px;width:100%;}
+.dashbord_line .items .title{font-weight: 700;font-size: 16px;line-height: 19px;color:#000}
+.dashbord_line .items .total_num{font-weight: 700;font-size: 40px;line-height: 47px;color:#000;padding: 22px 0;;}
+.dashbord_line .items ul li{font-weight: 700;font-size: 16px;line-height: 19px;color:#000}
+
+.items.center_type{display: flex;align-items: center;justify-content: center;    flex-direction: column;text-align:center;}

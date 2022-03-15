@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
-class lp_creat extends Component {
+class Lp_creat extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -71,4 +71,4 @@ class lp_creat extends Component {
   }
 }
 
-export default lp_creat;
+export default Lp_creat;

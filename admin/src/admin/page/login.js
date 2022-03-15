@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class login extends Component {
+class Login extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -36,4 +36,4 @@ class login extends Component {
   }
 }
 
-export default login;
+export default Login;

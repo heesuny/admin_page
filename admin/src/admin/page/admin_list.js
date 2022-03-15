@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
  
-class admin_list extends Component {
+class Admin_list extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -339,4 +339,4 @@ class admin_list extends Component {
   }
 }
 
-export default admin_list;
+export default Admin_list;

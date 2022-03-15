@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
-class lpapr_list extends Component {
+class Lpapr_list extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -86,4 +86,4 @@ class lpapr_list extends Component {
   }
 }
 
-export default lpapr_list;
+export default Lpapr_list;

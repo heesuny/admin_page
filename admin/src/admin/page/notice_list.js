@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
 
-class notice_list extends Component {
+class Notice_list extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -171,4 +171,4 @@ class notice_list extends Component {
   }
 }
 
-export default notice_list;
+export default Notice_list;

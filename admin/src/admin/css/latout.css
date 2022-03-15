@@ -10,12 +10,13 @@
 .menu__wrap .menu_btn .mymenu{font-family:"Poppins";font-size:16px;letter-spacing: -0.4px;color:#fff;line-height:64px;vertical-align: top;padding-right:20px;background: url(../img/icon_arrow_b.svg) no-repeat center right;}
 .menu__wrap .menu_btn .mywallet{margin:12px 20px;padding:6px 20px;border:1px solid #fff;border-radius:8px;font-family: 'Poppins';font-weight: 400;font-size: 16px;vertical-align: top;color: #fff;}
 .gemeral_wrap{display:none;position: absolute;top:70px;padding:20px 24px;background:#fff;box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.14);border-radius: 8px;transform: translateX(-50%);width:200px;}
-.gemeral_wrap.on{display:block;}
+.gemeral_wrap.active{display:block;}
 .gemeral_wrap .my_info{padding-bottom:17px;border-bottom:1px solid #D9D9D9;display: flex;justify-content: space-between;line-height:30px;font-size:16px;color:#7A7A7A}
 .gemeral_wrap .my_info button{display:flex;padding:5px 8px;align-items: center;justify-content: center;border: 1px solid #223CB5;border-radius:4px;font-size:12px;font-weight:500;}
 .gemeral_wrap li{padding-top:14px;}
 .gemeral_wrap li button{font-size:16px;color:#7A7A7A}
-.gnb{display:none;position:absolute;top:64px;left:0;width:100%;background: #FFFFFF;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);}
+.gnb{display:none;position:absolute;top:64px;left:0;width:100%;background: #FFFFFF;box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);z-index: 11;}
+.gnb.active{display:block;}
 .gnb_inner{display: flex;justify-content: flex-end;align-items: stretch;}
 .gnb_inner .gnb_line{padding:30px;border-right:1px solid #D9D9D9;width:264px;box-sizing: border-box;}
 .gnb_inner .gnb_line .gnb_item{border-top:1px solid #D9D9D9;padding-top:24px;margin-top:24px}

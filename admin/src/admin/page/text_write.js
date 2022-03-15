@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
 
-class text_write extends Component {
+class Text_write extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -47,4 +47,4 @@ class text_write extends Component {
   }
 }
 
-export default text_write;
+export default Text_write;

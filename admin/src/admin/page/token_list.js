@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
-class token_list extends Component {
+class Token_list extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -174,4 +174,4 @@ class token_list extends Component {
   }
 }
 
-export default token_list;
+export default Token_list;

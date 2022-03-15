@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
 
-class popup_list extends Component {
+class Popup_list extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -180,4 +180,4 @@ class popup_list extends Component {
   }
 }
 
-export default popup_list;
+export default Popup_list;

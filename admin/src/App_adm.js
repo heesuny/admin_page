@@ -3,6 +3,7 @@ import { Route, Switch, HashRouter, Redirect } from "react-router-dom";
 import Header from "./admin/layout/header";
 import "../src/admin/css/admin.css";
 import Dashbord from "./admin/page/dashbord";
+import Dashbord_fee from "./admin/page/dashbord_fee";
 import Member_list from "./admin/page/member_list";
 import Member_detail from "./admin/page/member_detail";
 import Notice_list from "./admin/page/notice_list";
@@ -19,15 +20,17 @@ import Admin_list from "./admin/page/admin_list";
 import My_profile from "./admin/page/my_profile";
 import Login from "./admin/page/login";
 const App_adm = () => {
-  
+  const [switchOn, switchChange] = useState(false);
+    
+ 
   return (
     <HashRouter>
       <Header></Header>
       <div className="container">
         {/* <Redirect exact from="/" to={{ pathname: "/dashbord" }} /> */}
         <Route path="/dashbord" component={Dashbord} />
+        <Route path="/dashbord_fee" component={Dashbord_fee} />
         <Route path="/member_list" component= {Member_list} />
-        <Route path="/member_list" component={Member_list} />
         <Route path="/member_detail" component={Member_detail} />
         <Route path="/notice_list" component={Notice_list} />
         <Route path="/notice_write" component={Notice_write} />

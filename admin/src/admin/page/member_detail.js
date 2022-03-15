@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
 
-class member_detail extends Component {
+class Member_detail extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -70,4 +70,4 @@ class member_detail extends Component {
   }
 }
 
-export default member_detail;
+export default Member_detail;

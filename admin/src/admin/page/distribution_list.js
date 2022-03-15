@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
-class distribution_list extends Component {
+class Distribution_list extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -121,4 +121,4 @@ class distribution_list extends Component {
   }
 }
 
-export default distribution_list;
+export default Distribution_list;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
-class lppull_list extends Component {
+class Lppull_list extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -89,4 +89,4 @@ class lppull_list extends Component {
   }
 }
 
-export default lppull_list;
+export default Lppull_list;

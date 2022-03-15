@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Leftnav from '../layout/leftnav';
 
-class my_profile extends Component {
+class My_profile extends Component {
   render() {
     return (
       <div className='contain__wrap'>
@@ -69,4 +69,4 @@ class my_profile extends Component {
   }
 }
 
-export default my_profile;
+export default My_profile;

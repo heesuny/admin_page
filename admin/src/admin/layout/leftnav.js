@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-function leftnav(props) {
+function Leftnav(props) {
     return (
       <div className='left_nav'>
         <p className='title'>{props.name}</p>
@@ -16,4 +16,4 @@ function leftnav(props) {
     );
 }
 
-export default leftnav;
+export default Leftnav;

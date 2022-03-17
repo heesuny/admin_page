@@ -20,9 +20,6 @@ import Admin_list from "./admin/page/admin_list";
 import My_profile from "./admin/page/my_profile";
 import Login from "./admin/page/login";
 const App_adm = () => {
-  const [switchOn, switchChange] = useState(false);
-    
- 
   return (
     <HashRouter>
       <Header></Header>

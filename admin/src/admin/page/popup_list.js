@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route, Link } from 'react-router-dom';
 import Leftnav from '../layout/leftnav';
 
 
@@ -64,7 +65,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -74,7 +75,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -84,7 +85,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -94,7 +95,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -104,7 +105,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -114,7 +115,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -124,7 +125,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -134,7 +135,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -144,7 +145,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
@@ -154,7 +155,7 @@ class Popup_list extends Component {
                       <td><input type="checkbox" /></td>
                       <td>1</td>
                       <td>Y</td>
-                      <td>일별 시세 제공서비스 일시중단 안내(점검)</td>
+                      <td><Link to='/popup_write'>일별 시세 제공서비스 일시중단 안내(점검)</Link></td>
                       <td>2022-01-29 11:00:00 ~ 2022-01-29 11:00:00</td>
                       <td>1순위</td>
                       <td>500*600</td>
